@@ -1,0 +1,23 @@
+@font-face {font-family: 'yg-jalnan';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');font-weight: normal;font-style: normal; } 
+
+h1,h2{
+	font-family: 'yg-jalnan';
+	color:orange;
+}
+
+li{
+	color:blue;
+	font-size: 30px;
+}
+
+h2,p{
+	text-align: center;
+}
+.introduce{
+	margin:30px;
+	padding:20px;
+
+	height:320px;
+	background-image: url("http://mm.sookmyung.ac.kr/~itx1415398/mh_home/likelion_logo1.png");
+	background-size:cover;
+}

@@ -1,0 +1,9 @@
+{%extends 'app/layout.html'%}
+{%load staticfiles%}
+{%block content%}
+<h2>form입니다<br>제가 쓴 글을 확인해보세요</h2><br><br>
+
+{{fulltext}}
+<br>
+<a href="{%url 'home'%}">home으로 가기</a>
+{%endblock%}

@@ -1,0 +1,12 @@
+{%extends 'app/layout.html'%}
+{%load staticfiles%}
+{%block content%}
+<h2>home입니다</h2>
+
+
+<form action="{%url 'form'%}">{% csrf_token %}
+    <textarea cols="40" rows="10" name="fulltext" method="post"></textarea>
+    <br>
+    <input type="submit" value="submit"/>
+</form>
+{%endblock%}
